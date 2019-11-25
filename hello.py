@@ -6,6 +6,7 @@ def greet(first_name: str) -> str:
     :type first_name: str
     :raise ValueError
     :return: greeting string
+    :rtype: str
     """
     if not first_name:
         raise ValueError
