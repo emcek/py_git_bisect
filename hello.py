@@ -8,5 +8,6 @@ def greet(first_name: str):
     """
     if not first_name:
         raise AttributeError
+
     value = f'Hello my dear {first_name}!'
     return value
