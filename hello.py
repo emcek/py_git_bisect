@@ -4,6 +4,7 @@ def greet(first_name):
 
     :param first_name: name of user
     :type first_name: str
+    :raise ValueError
     """
     if not first_name:
         raise ValueError
