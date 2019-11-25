@@ -1,4 +1,4 @@
-def greet(first_name):
+def greet(first_name: str):
     """
     Simple function which can greet user by name.
 
