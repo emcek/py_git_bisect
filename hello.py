@@ -1,4 +1,4 @@
-def greet(nam):
-    if not nam:
+def greet(na):
+    if not na:
         raise AttributeError
-    return f'Hello my dear {nam}!'
+    return f'Hello my dear {na}!'
